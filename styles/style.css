@@ -63,9 +63,11 @@ main {
 }
 main h1 {
   font-size: 8rem;
+  letter-spacing: 8px;
 }
 main p {
   font-size: 2rem;
+  letter-spacing: 3px;
 }
 main button {
   padding: 2rem;
