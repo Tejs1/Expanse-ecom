@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: steelblue;
+  color: aliceblue;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.377);
+  padding: 1rem 2rem;
+  border-radius: 6px;
+}
+.container a {
+  text-decoration: none;
+  color: rgb(191, 235, 250);
+}
+.container h1 {
+  padding: 1rem;
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background-color: lightblue;
+  font-size: 15px;
+  font-family: inherit;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+}
+/* .btn:focus {
+        outline: 0; 
+}*/
+.btn:active {
+  transform: scale(0.98);
+}
+.text {
+  margin-top: 30px;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+}
+.form-control input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 10px 0 5px;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.form-control input:focus,
+input:valid {
+  outline: 0;
+  border-bottom-color: steelblue;
+}
+
+.form-control label {
+  position: absolute;
+  top: 10px;
+  pointer-events: none;
+}
+.form-control label span {
+  display: inline-block;
+  min-width: 5px;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.3s cubic-bezier(0.65, -0.65, 0.255, 1.55);
+}
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  transform: translateY(-25px);
+  color: lightblue;
+}
+
+img {
+  filter: invert(84%) sepia(33%) saturate(130%) hue-rotate(190deg)
+    brightness(106%) contrast(105%);
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  margin-top: 13px;
+}
+img:hover {
+  filter: invert(88%) sepia(23%) saturate(484%) hue-rotate(162deg)
+    brightness(92%) contrast(95%);
+}

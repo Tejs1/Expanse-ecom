@@ -1,3 +1,7 @@
+.km-nav-logo h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
 .km-nav-bar {
   background-color: var(--nav-background);
   border-top: 1px solid var(--nav-border);
@@ -55,7 +59,7 @@
   border-image-slice: 39 39 fill;
   border-image-width: 100px;
   width: calc(100% + 34px);
-  height: calc(100% + 34px);
+  height: calc(100% + 32px);
   left: -17px;
   top: -17px;
   transform: translateX(5px) translateY(5px);
@@ -72,7 +76,6 @@
 }
 button {
   background-color: transparent;
-
   border: none;
 }
 .bubble.icon {
