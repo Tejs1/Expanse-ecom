@@ -38,8 +38,6 @@
   padding: 0;
 }
 .center {
-  background: url(./img/ships/store_slideshow_large.jpg) repeat scroll 0% 0%
-    rgba(0, 0, 0, 1);
   z-index: 3;
   position: a;
   top: 0;
@@ -47,6 +45,18 @@
   width: 818px;
   height: 288px;
   border: 1px solid #1b4268;
+}
+.center.q {
+  background: url(./img/ships/store_large.jpg) repeat scroll 0% 0%
+    rgba(0, 0, 0, 1);
+}
+.center.w {
+  background: url(./img/ships/Javelin-Sale.jpg) repeat scroll 0% 0%
+    rgba(0, 0, 0, 1);
+}
+.center.e {
+  background: url(./img/ships/store_slideshow_large.jpg) repeat scroll 0% 0%
+    rgba(0, 0, 0, 1);
 }
 .content {
   position: absolute;
@@ -204,9 +214,14 @@ label .checkbox {
   flex-wrap: nowrap;
 }
 .weight {
+  margin-left: 1rem;
   height: max-content;
   display: flex;
   flex-direction: column;
+  line-height: 1.4rem;
+}
+.list li input {
+  margin-right: 1rem;
 }
 .range {
   width: 20px;
@@ -227,4 +242,5 @@ label {
 input[type="checkbox"],
 input {
   accent-color: #2c799f;
+  background-color: var(--font2);
 }
