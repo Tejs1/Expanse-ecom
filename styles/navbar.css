@@ -1,3 +1,7 @@
+.km-nav-logo h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
 .km-nav-bar {
   background-color: var(--nav-background);
   border-top: 1px solid var(--nav-border);
@@ -9,7 +13,7 @@
 }
 .km-nav-searchbar input {
   background-color: rgba(0, 0, 0, 0.4);
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--input-border);
   display: block;
   border-color: var(--input-border);
@@ -26,11 +30,11 @@
 .cta-btn {
   margin-left: 1rem;  
   color: #7ad2dd;
-  font-size: 13px;
+  font-size: 0.813rem;
   display: inline-block;
-  height: 44px;
-  line-height: 49px;
-  padding: 0 40px;
+  height: 2.75rem;
+  line-height: 3.063rem;
+  padding: 0 2.5rem;
   position: relative;
   text-transform: uppercase;
 
@@ -49,7 +53,7 @@
   border: 1px solid transparent;
   border-image-source: url("./img/btn/button_foreground_border.svg");
   border-image-slice: 20 20 fill;
-  border-image-width: 100px;
+  border-image-width: 6.25rem;
   left: 0;
   top: 0;
   z-index: 2;
@@ -60,11 +64,11 @@
   border: 1px solid transparent;
   border-image-source: url("./img/btn/button_background_border.svg");
   border-image-slice: 39 39 fill;
-  border-image-width: 100px;
-  width: calc(100% + 34px);
-  height: calc(100% + 34px);
-  left: -17px;
-  top: -17px;
+  border-image-width: 6.25rem;
+  width: calc(100% + 2.125rem);
+  height: calc(100% + 2rem);
+  left: -1.063rem;
+  top: -1.063rem;
   transform: translateX(5px) translateY(5px);
   z-index: 3;
 }
@@ -74,23 +78,22 @@
   z-index: 5;
   white-space: nowrap;
   color: #fbfeff;
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: 200;
 }
 button {
   background-color: transparent;
-
   border: none;
 }
 .bubble.icon {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  height: 16px;
-  padding: 4px;
-  border-radius: 16px;
+  height: 1rem;
+  padding: 0.25rem;
+  border-radius: 1rem;
   letter-spacing: 0;
-  line-height: 8px;
+  line-height: 0.5rem;
   font-weight: 700;
   font-size: 0.75rem;
   font-family: var(--catalog__secondary-font, "Quantico", sans-serif);
@@ -115,14 +118,14 @@ button {
   z-index: -15;
 }
 .cta-btn.main div:last-of-type {
-  width: calc(100% + 100px);
+  width: calc(100% + 6.25rem);
   height: calc(100% + 68px);
-  transform: translateX(-26px) translateY(-13px);
+  transform: translateX(-26px) translateY(-0.813rem);
 }
 .cta-btn.main div:first-of-type {
-  width: calc(100% + 50px);
-  height: calc(100% + 18px);
-  transform: translateX(-25px) translateY(-12px);
+  width: calc(100% + 3.125rem);
+  height: calc(100% + 1.125rem);
+  transform: translateX(-25px) translateY(-0.75rem);
 }
 .main .cta-btn__text {
   font-size: 2rem;
