@@ -6,6 +6,10 @@
   background-color: var(--nav-background);
   border-top: 1px solid var(--nav-border);
   border-bottom: 1px solid var(--nav-border);
+
+}
+#nav{
+  z-index: 10;
 }
 .km-nav-searchbar input {
   background-color: rgba(0, 0, 0, 0.4);
@@ -15,7 +19,8 @@
   border-color: var(--input-border);
 }
 
-.km-nav-logo {
+.km-nav-logo a{
+  text-decoration: none;
   color: var(--font);
 }
 .km-btn {
@@ -23,6 +28,7 @@
   background-color: var(--nav-border);
 }
 .cta-btn {
+  margin-left: 1rem;  
   color: #7ad2dd;
   font-size: 0.813rem;
   display: inline-block;
@@ -31,6 +37,7 @@
   padding: 0 2.5rem;
   position: relative;
   text-transform: uppercase;
+
 }
 .cta-btn div {
   content: "";
