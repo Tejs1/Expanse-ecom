@@ -1,7 +1,11 @@
 #whishlist {
   text-align: center;
 }
-.top {
-  text-align: right;
-  color: aquamarine;
+.smallbtn.a {
+  top: 65px;
+  right: 40px;
+}
+.smallbtn.b {
+  top: 130px;
+  right: 40px;
 }
