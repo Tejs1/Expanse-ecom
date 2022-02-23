@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="../styles/style.css" />
     <link rel="stylesheet" href="../styles/navbar.css" />
     <link rel="stylesheet" href="../styles/shop.css" />
-    <link rel="stylesheet" href="../pages/cart.html" />
+    <link rel="stylesheet" href="../styles/cart.css" />
+    <link rel="stylesheet" href="../styles/whishlist.css" />
   </head>
   <body>
     <nav class="km-nav-bar" id="nav">
@@ -66,80 +67,10 @@
       </div>
     </nav>
 
+    <header class="cart__header" id="whishlist">
+      <h3>whishlist</h3>
+    </header>
     <div class="container">
-      <div class="filter">
-        <section class="filter-bar">
-          <div class="filter-comp flex-row">
-            <h3>Filters</h3>
-            <a href="" s>Clear</a>
-          </div>
-          <div class="filter-comp">
-            <h3 class="filter-heading">Mass [KG]</h3>
-            <div class="range-list">
-              <div class="weight list">
-                <label>below</label>
-                <label>20,000</label>
-                <label>50,000</label>
-                <label>80,000</label>
-                <label>100,000</label>
-                <label>over</label>
-              </div>
-              <input type="range" class="range" height="5px" width="5px" />
-            </div>
-          </div>
-          <div class="filter-comp">
-            <h3 class="filter-heading">Classification</h3>
-            <ul class="list">
-              <li>
-                <input type="checkbox" id="combact" />
-                <label for="Combact">ComBact</label>
-              </li>
-              <li>
-                <input type="checkbox" id="transport" />
-                <label for="TransPort">Transport</label>
-              </li>
-              <li>
-                <input type="checkbox" id="industrial" />
-                <label for="Industrial">Industrial</label>
-              </li>
-            </ul>
-          </div>
-          <div class="filter-comp">
-            <h3 class="filter-heading">Manufacturers</h3>
-            <ul class="list">
-              <li>
-                <input type="radio" name="rate" id="anvil" />
-                <label for="Anvil">Anvil Aerospace</label>
-              </li>
-              <li>
-                <input type="radio" name="rate" id="banu" />
-                <label for="BANU">BANU</label>
-              </li>
-              <li>
-                <input type="radio" name="rate" id="drake" />
-                <label for="Drake ">Drake Interplanetary</label>
-              </li>
-            </ul>
-          </div>
-          <div class="filter-comp">
-            <h3 class="filter-heading">PRICE RANGE</h3>
-            <ul class="list">
-              <li>
-                <input type="radio" name="sort" id="sortzero" />
-                <label for="sortzero">Any Price</label>
-              </li>
-              <li>
-                <input type="radio" name="sort" id="sortone" />
-                <label for="sortone">$100 to $200</label>
-              </li>
-              <li>
-                <input type="radio" name="sort" id="sorttwo" />
-                <label for="sortone">$200 to $500</label>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
       <div id="store-wrapper">
         <ul class="ship-listing">
           <li class="ship-item">
