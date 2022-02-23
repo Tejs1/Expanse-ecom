@@ -130,6 +130,8 @@ img {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
+  z-index: 20;
 }
 
 main {
@@ -166,4 +168,17 @@ main button {
 ol,
 ul {
   list-style: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
 }
