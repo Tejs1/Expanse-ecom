@@ -4,7 +4,7 @@
   font-size: 100%;
   line-height: 1;
   min-height: 50vh;
-  margin-top: -7px;
+  margin-top: -0.5rem;
   display: flex;
 }
 
@@ -44,7 +44,7 @@
   background: transparent;
 }
 .reset-cart svg {
-  margin-right: 8px;
+  margin-right: 0.5rem;
   vertical-align: top;
 }
 .cart_items-wrapper {
@@ -73,7 +73,7 @@
   font-size: 1.5rem;
 }
 .item {
-  padding: 16px 0;
+  padding: 1rem 0;
   border-bottom: 1px solid #4d575e;
   overflow: hidden;
 }
@@ -108,9 +108,9 @@
   width: 1.5rem;
 }
 .SkuIcon-icon {
-  margin-bottom: 4px;
-  width: 25px;
-  height: 25px;
+  margin-bottom: 0.25rem;
+  width: 1.563rem;
+  height: 1.563rem;
 }
 .item__information a {
   color: inherit;
@@ -120,14 +120,14 @@
   line-height: 1;
   font-weight: bold;
   font-size: 0.9rem;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
   color: #fff;
 }
 .item__subtitle {
   color: #dedede;
   display: inline-block;
   font-size: 0.9rem;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 .item__stock {
   color: #f3e3ac;
@@ -162,19 +162,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 25px;
-  width: 25px;
+  height: 1.563rem;
+  width: 1.563rem;
   cursor: pointer;
 }
 .quantity {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 25px;
+  height: 1.563rem;
   color: #fff7e0;
   user-select: none;
   font-weight: bold;
-  padding: 0 8px;
+  padding: 0 0.5rem;
 }
 .item__endline {
   position: relative;
@@ -185,10 +185,10 @@
 }
 .item .item__prices {
   display: flex;
-  width: 150px;
+  width: 9.375rem;
   align-items: flex-end;
   justify-content: flex-end;
-  margin-right: 64px;
+  margin-right: 4rem;
 }
 .FloatingTooltip-wrapper-children {
   width: min-content;
@@ -198,7 +198,7 @@
   letter-spacing: 0px;
   display: inline-block;
   position: relative;
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 .PriceCompact .Price-price-bloc {
   font-family: "Quantico", sans-serif;
@@ -231,13 +231,13 @@
 .PriceCompact .Price-currency-symbol {
   position: absolute;
   left: -0.8em;
-  top: 4px;
+  top: 0.25rem;
   color: #9da0a2;
   font-size: 0.8em;
 }
 .item .item__remove {
-  margin-left: 16px;
-  padding: 16px 0;
+  margin-left: 1rem;
+  padding: 1rem 0;
   cursor: pointer;
   transition: transform 0.25s ease 0.7s, padding 0.25s ease 0.7s;
 }
@@ -247,17 +247,17 @@
 }
 .clipper {
   position: sticky;
-  top: 96px;
-  width: 380px;
+  top: 6rem;
+  width: 23.75rem;
   flex: none;
   align-self: flex-start;
-  margin-left: 32px;
+  margin-left: 2rem;
   display: inline-block;
   opacity: 1;
   color: #3d4850;
 }
 .clipper__content {
-  padding: 0 24px 1px;
+  padding: 0 1.5rem 1px;
   height: 100%;
   position: relative;
   z-index: 5;
@@ -266,12 +266,12 @@
 }
 .OrderSummary-title {
   background: #1c1f21;
-  margin-left: -24px;
-  margin-right: -24px;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
   color: #dedede;
   display: flex;
   align-items: center;
-  padding: 16px 24px;
+  padding: 1rem 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0;
@@ -279,10 +279,10 @@
   margin: 0;
 }
 .OrderSummary-info {
-  margin-top: 32px;
+  margin-top: 2rem;
   display: flex;
-  padding-bottom: 16px;
-  margin-bottom: 16px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
   border-bottom: 1px solid #4d575e;
 }
 .OrderSummary-info .left {
@@ -296,7 +296,7 @@
 }
 .OrderSummary-info-label .small {
   color: #81888b;
-  margin-right: 32px;
+  margin-right: 2rem;
   margin-top: 2px;
   font-size: 0.75rem;
   display: inline-block;
@@ -328,6 +328,6 @@
   transition: color 0.25s ease;
 }
 .OrderSummary-info-total {
-  margin-top: 32px;
+  margin-top: 2rem;
   color: #cdd0d1;
 }
