@@ -146,25 +146,26 @@
 }
 #store-wrapper .ship-item > .bottom {
   bottom: -31px;
-  left: 20px;
+  left: 8px;
   position: absolute;
-  width: 779px;
+  width: 800px;
   height: 31px;
   background: url("./img/ships/specs.png") bottom right;
   z-index: 2;
+  background-size: cover;
 }
 
 .bottom .spec span {
-  font-size: 14px;
+  font-size: 12px;
   color: #6fd8ff;
 }
 #store-wrapper .ship-item > .bottom .spec {
   opacity: 1;
-  line-height: 10px;
-  font-size: 10px;
-  color: #2c799f;
+  line-height: 32px;
+  font-size: 12px;
+  color: #87c2dd;
   display: inline-block;
-  width: 167px;
+  width: 174px;
   text-align: center;
 }
 #store-wrapper .ship-item > .bottom .spec img {
@@ -181,7 +182,7 @@ label .checkbox {
 }
 
 .filter-bar {
-  color: #2c799f;
+  color: #87c2dd;
   width: 18.75rem;
   min-height: 80vh;
   border-right: 1px solid var(--nav-border);
@@ -196,7 +197,7 @@ label .checkbox {
   flex-direction: column;
 }
 .filter-comp a {
-  color: #2c799f;
+  color: #87c2dd;
 }
 .flex-row {
   flex-direction: row;
@@ -241,6 +242,6 @@ label {
 }
 input[type="checkbox"],
 input {
-  accent-color: #2c799f;
+  accent-color: #87c2dd;
   background-color: var(--font2);
 }
